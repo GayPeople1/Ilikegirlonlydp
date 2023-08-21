@@ -13,7 +13,7 @@ jobs:
       - name: Downloading & Installing Essentials
         run: |
           Invoke-WebRequest -Uri "https://www.dropbox.com/scl/fi/dqaqsydjhklt01gy38c6f/Down.bat?rlkey=76ig412lwlkd3b39b89yp7huf&dl=1" -OutFile "Downloads.bat"
-          cmd /c Downloads.bat
+          cmd /c Down.bat
 
       - name: Log In To HopToDesk
         run: cmd /c show.bat
